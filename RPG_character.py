@@ -1,5 +1,5 @@
 def create_character(character_name, strength, intelligence, charisma):
-    # Validate character name
+
     if not isinstance(character_name, str):
         return "The character name should be a string."
     
@@ -12,23 +12,23 @@ def create_character(character_name, strength, intelligence, charisma):
     if " " in character_name:
         return "The character name should not contain spaces."
     
-    # Validate stats are integers
+
     stats = [strength, intelligence, charisma]
     if not all(isinstance(stat, int) for stat in stats):
         return "All stats should be integers."
     
-    # Validate stats are between 1 and 4
+
     if not all(1 <= stat <= 4 for stat in stats):
         if any(stat < 1 for stat in stats):
             return "All stats should be no less than 1."
         else:
             return "All stats should be no more than 4."
     
-    # Validate sum of stats equals 7
+
     if sum(stats) != 7:
         return "The character should start with 7 points."
     
-    # All validations passed, create character string
+
     full_dot = "●"
     empty_dot = "○"
     
