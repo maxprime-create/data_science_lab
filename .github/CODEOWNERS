@@ -1,0 +1,7 @@
+# CODEOWNERS
+# Maintainers — update with actual GitHub usernames or teams
+# Default owners for the repository (replace with specific usernames if needed)
+* @maxprime-create
+
+# Example of per-path ownership:
+# /modules/ @maxprime-create
