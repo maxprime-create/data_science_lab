@@ -16,6 +16,15 @@ A concise script that models a ticket booking flow, including price calculation,
 ### Travel Weather Planner
 A rule-based planner that makes travel recommendations based on distance, weather, and available transport options. Demonstrates decision-making and scenario evaluation.
 
+### RPG Character Builder
+A small script that models a role-playing game (RPG) character with attributes, level progression, and simple combat or stat calculations. Useful for practicing data structures, randomization, and function decomposition.
+
+### Apply Discount Function
+A standalone utility that encapsulates discount and price-adjustment logic. Shows clean function design and can be reused across scripts that need pricing or promotion calculations.
+
+### Caesar Cipher
+An implementation of the classic Caesar cipher for simple text encryption and decryption. Good for learning string manipulation, modular arithmetic, and basic encoding concepts.
+
 ## Getting started
 
 1. Clone the repository:
@@ -30,6 +39,9 @@ cd data_science_lab
 ```bash
 python "movie ticket booking generator.py"
 python "travel weather planner.py"
+python "RPG_character.py"
+python "apply discount function.py"
+python "caesar_cipher.py"
 ```
 
 Note: These are standalone scripts and require only a standard Python interpreter (3.8+ recommended).
@@ -51,6 +63,9 @@ source .venv/bin/activate  # macOS / Linux
 Projects/
 ├── movie ticket booking generator.py
 ├── travel weather planner.py
+├── RPG_character.py
+├── apply discount function.py
+├── caesar_cipher.py
 └── README.md
 ```
 
